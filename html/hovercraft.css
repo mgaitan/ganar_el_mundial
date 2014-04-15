@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville|Racing+Sans+One|Satisfy);
+
+body {
+    font-size: 200%;
+    text-align: center;
+    font-family: Libre Baskerville;
+}
+
+span.cite_label {display: none}
+
+p {
+    font-size: 125%;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+em {
+    font-family: Satisfy;
+    font-size: 142%;
+}
+
+strong {
+    font-family: Racing Sans One;
+    font-size: 127%;
+    letter-spacing: -2px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    font-size: 125%;
+    font-family: serif;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    padding-left: 0.3em;
+    line-height: 1.8em;
+    list-style-type: circle;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#ThreeD H1 {
+    font-family: Racing Sans One;
+    font-size: 300%;
+}
+
+#thequestion p {
+    font-family: Racing Sans One;
+}
+
+
+
+blockquote {
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 300%;
+    position: absolute;
+    left: -0.4em;
+    top: -0.1em;
+    color: #7a7a7a;
+}
+
+div.cite {
+color: #999999;
+font-size: 100%;
+display: block;
+margin-top: 1em;
+text-align: right;
+}
+
+div.cite cite:before {
+    content: "\2014 \2009";
+}
+
+
+.cite_label, .hidden {
+    display: none;
+}
+
